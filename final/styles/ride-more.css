@@ -64,27 +64,30 @@ body{
     transform: scale(1.1);
   }
 section p{  
-    background-color: blue; 
+    background-color: #396E94; 
     color: white;
     display: block; 
     margin-left: auto;
     margin-right: auto; 
     margin-bottom: 500px; 
     margin-top: 400px;
-    width: 500px;
+    width: 1000px;
     height: 200px;  
     overflow: scroll; 
     font-size: 1.5em;  
     font-family: Georgia, 'Times New Roman', Times, serif; 
     line-height: 1.5; 
     word-spacing: 2.5px;
+    
 } 
 .page3pic-title{  
-    color: blue; 
+    color: black; 
     text-align: center; 
     padding-left: 400px; 
     margin-top: -300px;
     border-style: double;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
 } 
 .button-box{
     text-align: center; 
@@ -103,7 +106,7 @@ section p{
     box-shadow: 5px 5px 5px rgb(61, 61, 206);
 }  
 .discuss:hover{
-    background-color: aqua;  
+    background-color: #396E94;  
 } 
  
 .join{
