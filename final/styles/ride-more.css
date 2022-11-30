@@ -78,7 +78,7 @@ section p{
     font-family: Georgia, 'Times New Roman', Times, serif; 
     line-height: 1.5; 
     word-spacing: 2.5px;
-    
+
 } 
 .page3pic-title{  
     color: black; 
@@ -96,12 +96,12 @@ section p{
     margin-bottom: 500px;
 } 
 .discuss{ 
-    background-color: antiquewhite;
+    background-color: white;
     color: darkred;  
     text-decoration: none;  
     font-size: 20px;  
     padding: 15px 30px;   
-    border-style: dashed;
+    border-style: solid;
     border-radius: 10px; 
     box-shadow: 5px 5px 5px rgb(61, 61, 206);
 }  
@@ -112,17 +112,17 @@ section p{
 .join{
     text-align: center;   
     margin-left: 90px;  
-    background-color: antiquewhite;
+    background-color: white;
     color: darkred;  
     text-decoration: none;  
     font-size: 20px;  
     padding: 15px 30px;  
-    border-style: dashed;
+    border-style: solid;
     border-radius: 10px; 
     box-shadow: 5px 5px 5px rgb(61, 61, 206);
 } 
 .join:hover{
-    background-color: aqua; 
+    background-color: #396E94; 
 }
 .page3-img{
     width: 100%;  
