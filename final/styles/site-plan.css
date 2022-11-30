@@ -60,9 +60,9 @@ body{
     background-color: #E7C24F;
     color: #E7C24F
     font-size: 1.5em;  
-    border: 3px #396E94;
+    border: 3px #A43312;
     border-radius: 10px; 
-    box-shadow: 5px 5px 5px black
+    box shadow: 5px 5px 10px black;
 }  
 .discuss:hover{
     opacity: .6;
@@ -137,7 +137,7 @@ h3{text-align: center;
     text-align: center;
   }
   .title {
-    color: grey;
+    color: #A43312;
     font-size: 18px;
   } 
 
@@ -186,7 +186,7 @@ footer a {
     padding: 25px 0px;
 }
 footer a:hover {
-    color: greenyellow;
+    color: #A43312;
 }  
 
 footer p {
@@ -240,6 +240,7 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
 
 
 
