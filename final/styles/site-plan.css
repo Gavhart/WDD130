@@ -1,5 +1,5 @@
 nav  { 
-    background-color: antiquewhite; 
+    background-color: #E7C24F; 
     text-align: center; 
     margin-top: -160px; 
     padding-top: 50px; 
@@ -21,10 +21,11 @@ nav a{
     font-size: 1.5em; 
 }   
 nav a:hover{
-    color: #E7C24F;
+    color: black;
 } 
 body{
     width: 100%
+    
 } 
 #hero-img{
     width: 100%;
