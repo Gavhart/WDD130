@@ -1,0 +1,247 @@
+nav  { 
+    background-color: antiquewhite; 
+    text-align: center; 
+    margin-top: -160px; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+} 
+.logo{
+    width: 100px;
+    height: 100px; 
+    padding-left: 30px; 
+    padding-bottom: 35px; 
+    padding-top: -5px;
+} 
+nav a{ 
+    color: #396E94;
+    padding: 10px;  
+    padding-left: 80px;
+    text-decoration: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 1.5em; 
+}   
+nav a:hover{
+    color: #E7C24F;
+} 
+body{
+    width: 100%
+} 
+#hero-img{
+    width: 100%;
+}
+ 
+
+
+/* The hero image layout */
+.homepic-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.homepic-text { 
+  text-align: center; 
+  font-size: 13px;  
+  margin-top: -870px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+} 
+.homepic-text p{ 
+    background-color: #E7C24F;
+    color: black; 
+    font-size: 20px;
+}
+.discuss{ 
+    background-color: #E7C24F;
+    color: #E7C24F
+    font-size: 1.5em;  
+    border: 3px #396E94;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px black
+}  
+.discuss:hover{
+    opacity: .6;
+    transform: scale(1.1); 
+}
+ 
+/* body images layout */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    margin: 30px; 
+    margin-top: 200px;  
+    border: 10px solid #396E94;
+    transform: transform .5s;
+    box-shadow: 5px 5px 10px black; 
+  } 
+
+.column:hover{
+    opacity: .6;
+    transform: scale(1.1); 
+}
+
+/* paragraph text layout */ 
+section h6{   
+    background-color: #396E94;  
+    color: white; 
+    font-size: 1.5em;  
+    font-family: 'Rock Salt', 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 200px;   
+    margin-bottom: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+  
+h2{
+    text-align: center; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    color: #396E94; 
+}
+h3{text-align: center; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    color: #396E94; 
+}
+ 
+
+
+
+/* beginning of the profile card */
+  .card {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50%; 
+    margin: auto;  
+    margin-top: 300px;
+    margin-bottom: 300px;
+    text-align: center;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  } 
+
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  } 
+  .card :hover{
+    opacity: .6;
+    transform: scale(1.1); 
+}
+
+/* end of the profile card */
+   
+ 
+
+ 
+footer {
+    background-color:rgba(20,30,13, .7);
+    color: white;
+    margin-top: 400px;  
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+footer a { 
+    margin-bottom: 60px;
+    color: white; 
+    text-decoration: none;
+    padding: 25px 0px;
+}
+footer a:hover {
+    color: greenyellow;
+}  
+
+footer p {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p a:hover {
+    text-decoration: none
+}
+footer .social img {
+    padding-top: 15px;
+} 
+
+@media screen and (max-width: 900px) {
+
+    .homepic, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .homepic {
+        margin-top: 0;
+    }
+    .homepic-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .homepic-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    
+    #background {
+        display: none;
+    }
+    .family, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+
+
+
+
+  
+
