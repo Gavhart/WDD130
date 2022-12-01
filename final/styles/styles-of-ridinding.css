@@ -1,0 +1,31 @@
+#content{
+    max-width: 1600px;
+}
+nav  { 
+    background-color: antiquewhite; 
+    text-align: center; 
+    margin-top: -150px; 
+    padding-top: 50px; 
+    padding-bottom: 40px;
+} 
+.logo{
+    width: 100px;
+    height: 100px; 
+    padding-left: 30px; 
+    padding-bottom: 35px; 
+    padding-top: 10px;
+} 
+nav a{ 
+    color: #A43312;
+    padding: 10px;  
+    padding-left: 80px;
+    text-decoration: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 1.5em; 
+}   
+nav a:hover{
+    color: black;
+}
+body{
+    margin: 0 auto;
+}
