@@ -30,27 +30,27 @@ body{
 #hero-img{
     width: 100%;
 }
+img{
+    max-width: 100%;
+}
  
 
 
 /* The hero image layout */
 .homepic-image {
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: 100% 400px;
+  flex-wrap: wrap;
+  background-image: url("../photos/homepage feet.jpeg");
+  height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  
 }
-.homepic-text { 
-  text-align: center; 
-  font-size: 13px;  
-  margin-top: -870px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-} 
 .homepic-text p{ 
     background-color: #E7C24F;
     color: black; 
@@ -58,11 +58,11 @@ body{
 }
 .discuss{ 
     background-color: #E7C24F;
-    color: #E7C24F
+    color: #E7C24F;
     font-size: 1.5em;  
     border: 3px #A43312;
     border-radius: 10px; 
-    box shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 }  
 .discuss:hover{
     opacity: .6;
@@ -101,7 +101,7 @@ body{
 
 /* paragraph text layout */ 
 section h6{   
-    background-color: #396E94;  
+    /* background-color: #396E94;   */
     color: white; 
     font-size: 1.5em;  
     font-family: 'Rock Salt', 'Times New Roman', Times, serif;
@@ -109,7 +109,8 @@ section h6{
     margin-top: 200px;   
     margin-bottom: 300px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 40px; 
+    flex-wrap: wrap;
 }
   
 h2{

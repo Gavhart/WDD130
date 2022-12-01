@@ -2,7 +2,7 @@
     max-width: 1600px;
 }
 nav  { 
-    background-color: antiquewhite; 
+    background-color: #E7C24F; 
     text-align: center; 
     margin-top: -150px; 
     padding-top: 50px; 
@@ -29,3 +29,21 @@ nav a:hover{
 body{
     margin: 0 auto;
 }
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../photos/styles DH.jpeg");
+    background-image: url("../photos/styles enduro.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
