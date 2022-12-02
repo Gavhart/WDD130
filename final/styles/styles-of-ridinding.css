@@ -8,6 +8,9 @@ nav  {
     padding-top: 50px; 
     padding-bottom: 40px;
 } 
+nav :hover{
+    color: black;
+}
 .logo{
     width: 100px;
     height: 100px; 
@@ -16,34 +19,155 @@ nav  {
     padding-top: 10px;
 } 
 nav a{ 
-    color: #A43312;
+    color: #396E94;
     padding: 10px;  
     padding-left: 80px;
     text-decoration: none; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     font-size: 1.5em; 
 }   
-nav a:hover{
-    color: black;
-}
-body{
-    margin: 0 auto;
-}
-body, html {
-    height: 100%;
-  }
-  
-  .parallax {
-    /* The image used */
-    background-image: url("../photos/styles DH.jpeg");
+.enduro{
+    background-size: 100% 400px;
+    flex-wrap: wrap;
     background-image: url("../photos/styles enduro.jpeg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Create the parallax scrolling effect */
-    background-position: center;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+}
+.cross-country{
+    background-size: 100% 400px;
+    flex-wrap: wrap;
+    background-image: url("../photos/styles cross country.jpeg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+}
+.dh{
+    background-size: 100% 400px;
+    flex-wrap: wrap;
+    background-image: url("../photos/styles DH.jpeg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+}
+.hardtail{
+    background-size: 100% 400px;
+    flex-wrap: wrap;
+    background-image: url("../photos/styles hardtail.jpeg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+}
+
+h6{
+    color: #E7C24F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    color: #E7C24F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h4{
+    color: #E7C24F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h5{
+    color: #E7C24F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    background-color:#E7C24F;
+    color: #396E94;
+    margin-top: 200px; 
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #396E94; 
+    text-decoration: none;
+    padding: 22px 0px;
+    font-size: 1.5em;
+}
+footer a:hover {
+    color: #396E94;
+}  
+
+footer p {
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+footer p a:hover {
+    text-decoration: none
+}
+footer .social img {
+    padding-top: 15px; 
+} 
+@media screen and (max-width: 900px) {
+
+    .page3pic, .page3-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .page3pic {
+        margin-top: 0;
+    }
+    .page3pic-msg {
+        margin-top: 0;
+    }
+    #page3pic-msg h4 {
+        display: none;
+    }
+    
+    #background {
+        display: none;
+    }
+    
+    footer {
+        margin-top: 25px; 
+    }
+}
+
+
