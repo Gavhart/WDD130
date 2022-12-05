@@ -22,7 +22,7 @@ nav a{
     font-size: 1.5em; 
 }   
 nav a:hover{
-    color: black;
+    color: #A43312;
 } 
 body{
     width: 100%
@@ -41,7 +41,7 @@ img{
 .homepic-image {
   background-size: 100% 400px;
   flex-wrap: wrap;
-  background-image: url("../photos/homepage feet.jpeg");
+  background-image: url("../photos/homepage-feet.jpeg");
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,7 @@ img{
   
   .row {
     display: flex;
-    background-image: url("../photos/homepage jumping.jpeg");
+    background-image: url("../photos/homepage-jumping.jpeg");
     height: 1100px;
     width: 100%;
     background-size: cover;
@@ -169,7 +169,7 @@ p{
 
 /* beginning of the profile card */
   .scenery {  
-    background-image: url("../photos/homepage scenery.jpeg");
+    background-image: url("../photos/homepage-scenery.jpeg");
     background-size: 100% 400px;
     height: 1800px;
     max-width: 100%; 
@@ -209,6 +209,7 @@ p{
 }
  
 footer {
+    z-index: 3;
     background-color: #E7C24F;
     color:#396E94 ;
     margin-top: 0px;  

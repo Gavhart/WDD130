@@ -40,7 +40,7 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
-    color: black;
+    color: #A43312;
 }
 .msg {
     background-color:#E7C24F;
@@ -62,21 +62,24 @@ footer {
 } 
 
 footer a {
-    color: white; 
+    color: #396E94; 
     text-decoration: none;
     padding: 25px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 footer a:hover {
-    color: black;
+    color: #A43312;
 }  
 
 footer p {
     font-size: 1.5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #396E94;
+     
 }
 
 footer p a:hover {
-    text-decoration: none
+    text-decoration: #396E94;
 }
 footer .social img {
     padding-top: 15px;
@@ -251,5 +254,7 @@ form {
     }
     footer {
         margin-top: 25px;
+        color: #E7C24F;
+
     }
 }

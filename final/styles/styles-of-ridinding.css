@@ -1,5 +1,5 @@
 #content{
-    max-width: 1600px;
+    max-width: 100%;
 }
 nav  { 
     background-color: #E7C24F; 
@@ -9,7 +9,7 @@ nav  {
     padding-bottom: 40px;
 } 
 nav :hover{
-    color: black;
+    color: #A43312;
 }
 .logo{
     width: 100px;
@@ -29,7 +29,7 @@ nav a{
 .enduro{
     background-size: 100% 400px;
     flex-wrap: wrap;
-    background-image: url("../photos/styles enduro.jpeg");
+    background-image: url("../photos/styles-enduro.jpeg");
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ nav a{
 .cross-country{
     background-size: 100% 400px;
     flex-wrap: wrap;
-    background-image: url("../photos/styles cross country.jpeg");
+    background-image: url("../photos/styles-cross-country.jpeg");
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ nav a{
 .dh{
     background-size: 100% 400px;
     flex-wrap: wrap;
-    background-image: url("../photos/styles DH.jpeg");
+    background-image: url("../photos/styles-DH.jpeg");
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ nav a{
 .hardtail{
     background-size: 100% 400px;
     flex-wrap: wrap;
-    background-image: url("../photos/styles hardtail.jpeg");
+    background-image: url("../photos/styles-hardtail.jpeg");
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,9 +120,10 @@ h5{
     padding-left: 2%;
 }
 footer {
+    z-index: 3;
     background-color:#E7C24F;
     color: #396E94;
-    margin-top: 200px; 
+    margin-top: 0px; 
     padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
@@ -130,7 +131,7 @@ footer {
 }
 
 footer a {
-    color: #396E94; 
+    color: #A43312; 
     text-decoration: none;
     padding: 22px 0px;
     font-size: 1.5em;
