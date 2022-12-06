@@ -87,7 +87,11 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 100px;
-}
+    background-image: linear-gradient(200deg, white, hsla(187, 100%, 69%, 0) 70%), linear-gradient(130deg, #A43312, hsla(300, 100%, 69%, 0) 70%), linear-gradient(330deg, #E7C24F, hsla(0, 100%, 69%, 0) 70%);
+    height: 100%;
+    
+      }
+
 .scene{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -129,7 +133,7 @@ main{
 footer {
     background-color:#E7C24F;
     color: #396E94;
-    margin-top: 200px; 
+    margin-top: 0px; 
     padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
@@ -187,5 +191,6 @@ footer .social img {
     footer {
         margin-top: 25px; 
     }
+
 }
 
